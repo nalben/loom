@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[194],{194:(e,a,s)=>{s.r(a),s.d(a,{default:()=>n});const t={};var c=s(294);const n=function(){return c.createElement("div",{className:t.home})}}}]);
+//# sourceMappingURL=194.f06aeda495d472bcb18c.js.map
