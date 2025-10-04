@@ -67,10 +67,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nalben/webpack-standart.git"
+    "url": "git+https://github.com/nalben/loom"
   },
   "bugs": {
-    "url": "https://github.com/nalben/webpack-standart/issues"
+    "url": "https://github.com/nalben/loom/issues"
   },
-  "homepage": "https://github.com/nalben/SquareUp"
+  "homepage": "https://github.com/nalben/loom"
 }
