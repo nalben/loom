@@ -1,0 +1,20 @@
+.container{
+    padding: fluid-prop(14,12,1440,390);
+    background-color: var(--brown80);
+    border-radius: fluid-prop(12,8,1920,1440);
+    color: var(--dark06);
+    width: max-content;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    @media (min-width:1440px) {
+        padding: fluid-prop(16,14,1920,1440);
+    }
+    & svg{
+        min-width: fluid-prop(28,24,1440,390);
+        max-width: fluid-prop(28,24,1440,390);
+        @media (min-width:1440px) {
+            min-width: fluid-prop(34,28,1920,1440);
+            max-width: fluid-prop(34,28,1920,1440);
+        }
+    }
+}

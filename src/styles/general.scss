@@ -75,9 +75,11 @@ a {
 // background-position: center;
 
 
-:global(.classname){
-    
+:global(.gap){
+    display: flex;
+    flex-direction: column;
+    gap: fluid-prop(80,50,1440,390);
+    @media (min-width:1440px) {
+        gap: fluid-prop(100,80,1920,1440);
+    }
 }
-
-
-

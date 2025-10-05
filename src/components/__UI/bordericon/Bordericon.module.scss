@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  display: flex;
+  width: max-content;
+  
+  & .circle {
+    overflow: visible !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    rotate: -8deg;
+  }
+
+  & span {
+    aspect-ratio: 1/1;
+    display: flex;
+    z-index: 2;
+    background-color: var(--dark10);
+    border-radius: 50%;
+    padding: fluid-prop(18,16,1920,1440);
+    margin: fluid-prop(14,10,1920,1440);
+    svg {
+      width: fluid-prop(28,23,1920,1440);
+      height: fluid-prop(28,23,1920,1440);
+      color: var(--brown70);
+    }
+  }
+}
+.container::before{
+    content: '';
+    width: 2px;
+    height: 96%;
+    background-color: var(--dark15);
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    left: 48.5%;
+    z-index: 1;
+}
+.container::after{
+    content: '';
+    height: 2px;
+    width: 96%;
+    background-color: var(--dark15);
+    position: absolute;
+    top: 48.5%;
+    left: 2px;
+    z-index: 1;
+}

@@ -1,0 +1,26 @@
+.sitecon {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    position: relative;
+    overflow-x: hidden;
+    background-color: var(--dark06);
+    min-height: 100vh;
+}
+
+.sitewrapper {
+    flex: 0 1 1920px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagecontent {
+    padding-inline: fluid-prop(162, 80, 1920, 1440);
+
+    @media(max-width: 1440px) {
+        padding-inline: fluid-prop(80, 16, 1440, 390);
+    }
+}
