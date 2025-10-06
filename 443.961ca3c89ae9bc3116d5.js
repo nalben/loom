@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[443],{443:(e,c,t)=>{t.r(c),t.d(c,{default:()=>r});var a=t(294);const n={},r=function(){return a.createElement("div",{className:"".concat(n.Product," border-content-block")},"продукт")}}}]);
+//# sourceMappingURL=443.961ca3c89ae9bc3116d5.js.map

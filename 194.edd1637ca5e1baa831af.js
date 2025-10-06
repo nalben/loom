@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[194],{194:(e,a,c)=>{c.r(a),c.d(a,{default:()=>s});const t={};var n=c(294);const s=function(){return n.createElement("div",{className:"".concat(t.home," gap")},"хом")}}}]);
+//# sourceMappingURL=194.edd1637ca5e1baa831af.js.map

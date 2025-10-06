@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[351],{351:(e,t,c)=>{c.r(t),c.d(t,{default:()=>r});var a=c(294);const n={},r=function(){return a.createElement("div",{className:"".concat(n.Contact," border-content-block")},"контакт")}}}]);
+//# sourceMappingURL=351.ff850fea3f957b8b9d9c.js.map
