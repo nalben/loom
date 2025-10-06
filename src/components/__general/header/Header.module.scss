@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-block: fluid-prop(30,24,1920,1440);
+    align-items: center;
+    border-bottom: var(--border);
+}
+.left, .right{
+    display: none;
+    gap: fluid-prop(14,10,1920,1440);
+    @media (min-width:750px) {
+        display: flex;
+    }
+}

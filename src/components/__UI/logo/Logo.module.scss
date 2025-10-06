@@ -1,0 +1,10 @@
+.logo{
+    transition: all 0.5s;
+    &:hover{
+        opacity: 60%;
+        transition: all 0.5s;
+    }
+    & svg{
+        max-width: fluid-prop(150,130,1920,1440);
+    }
+}

@@ -67,10 +67,10 @@
     &.border{
         color: var(--white);
         font-size: fluid-prop(18,14,1920,1440);
-        background-color: var(--dark12);
+        // background-color: var(--dark12);
         padding-block: fluid-prop(18,14,1920,1440);
         padding-inline: fluid-prop(24,20,1920,1440);
-        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23404040FF' stroke-width='1' stroke-dasharray='10' stroke-dashoffset='4' stroke-linecap='square'/%3e%3c/svg%3e");
+        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23404040FF' stroke-width='2' stroke-dasharray='10' stroke-dashoffset='4' stroke-linecap='square'/%3e%3c/svg%3e");
         border-radius: 8px;
         transition: all 0.5s;
         align-items: center;
@@ -79,6 +79,45 @@
             max-width: fluid-prop(24, 20, 1920, 1440);
             min-width: fluid-prop(24, 20, 1920, 1440);
         }
+        &:hover{
+            background-color: var(--dark15);
+            transition: all 0.5s;
+        }
+        &:active{
+            background-color: var(--dark20);
+            transition: all 0.5s;
+        }
+    }
+    &.border_classic{
+        color: var(--white);
+        font-size: fluid-prop(18,14,1920,1440);
+        // background-color: var(--dark12);
+        padding-block: fluid-prop(18,14,1920,1440);
+        padding-inline: fluid-prop(24,20,1920,1440);
+        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23404040FF' stroke-width='2' stroke-dasharray='10' stroke-dashoffset='4' stroke-linecap='square'/%3e%3c/svg%3e");
+        border-radius: 8px;
+        transition: all 0.5s;
+        align-items: center;
+        &:hover{
+            background-color: var(--dark15);
+            transition: all 0.5s;
+        }
+        &:active{
+            background-color: var(--dark20);
+            transition: all 0.5s;
+        }
+    }
+    &.dark_disable{
+        color: var(--grey70);
+        font-family: "Roboto Mono", monospace;
+        font-weight: 500;
+        font-size: fluid-prop(18, 14, 1920, 1440);
+        padding-block: fluid-prop(18, 14, 1920, 1440);
+        padding-inline: fluid-prop(30, 30, 1920, 1440);
+        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23404040FF' stroke-width='2' stroke-dasharray='10' stroke-dashoffset='4' stroke-linecap='square'/%3e%3c/svg%3e");
+        border-radius: 8px;
+        transition: all 0.5s;
+        align-items: center;
         &:hover{
             background-color: var(--dark15);
             transition: all 0.5s;

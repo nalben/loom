@@ -6,6 +6,10 @@ import { Suspense } from "react";
 import { LazyHome } from "@/pages/home/Home.lazy";
 import HomeSkeleton from "./pages/home/HomeSkeleton";
 import ScrollToTop from './components/__general/scroll/Scrolltotop';
+import { LazyProduct } from './pages/product/Product.Lazy';
+import ProductSkeleton from './pages/product/ProductSkeleton';
+import ContactSkeleton from './pages/contact/ContactSkeleton';
+import { LazyContact } from './pages/contact/Contact.Lazy';
 
 
 const root = document.getElementById('root');
@@ -21,6 +25,16 @@ container.render(
             <Route path="home" element={
                 <Suspense fallback={<HomeSkeleton />}>
                 <LazyHome />
+                </Suspense>
+            } />
+            <Route path="product" element={
+                <Suspense fallback={<ProductSkeleton />}>
+                <LazyProduct />
+                </Suspense>
+            } />
+            <Route path="contact" element={
+                <Suspense fallback={<ContactSkeleton />}>
+                <LazyContact />
                 </Suspense>
             } />
             <Route path="*" element={<Navigate to="/home" replace />} />

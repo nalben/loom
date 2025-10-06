@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    padding: fluid-prop(18,14,1920,1440);
+    background-color: var(--dark10);
+    color: var(--white);
+    border-radius: fluid-prop(12,8,1920,1440);
+    transition: all 0.5s;
+    width: fit-content;
+    & svg{
+        max-width: fluid-prop(24,20,1920,1440);
+        min-width: fluid-prop(24,20,1920,1440);
+    }
+    &:hover{
+        background-color: var(--dark15);
+        transition: all 0.5s;
+    }
+    &:active{
+        background-color: var(--dark20);
+        transition: all 0.5s;
+    }
+}

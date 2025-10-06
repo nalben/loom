@@ -8,7 +8,7 @@ type MainbuttonProps = {
   href?: string;
   to?: string;
   onClick?: () => void;
-  variant?: 'standart' | 'arrow' | 'border' | 'dark';
+  variant?: 'standart' | 'arrow' | 'border' | 'border_classic' | 'dark' | 'dark_disable';
   className?: string;
 };
 
@@ -27,6 +27,8 @@ const Mainbutton: React.FC<MainbuttonProps> = ({
       <span className={classes.text}>{children}</span>
       {variant === 'arrow' && <span className={classes.arrow}><Arrow /></span>}
       {variant === 'border' && <span className={classes.decor}><Arrow /></span>}
+      {variant === 'border_classic' && <span className={classes.decor}></span>}
+      {variant === 'dark_disable' && <span className={classes.decor}></span>}
     </>
   );
 
