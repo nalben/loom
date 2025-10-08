@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[421],{10:(e,a,t)=>{t.r(a),t.d(a,{default:()=>s});const c={};var n=t(294);const r={},l=t.p+"img/Home_back.e1e38110.webp",m=function(){return n.createElement("div",{className:r.container},n.createElement("img",{src:l,alt:""}))},s=function(){return n.createElement("div",{className:"".concat(c.home," gap")},n.createElement(m,null))}}}]);
+//# sourceMappingURL=421.6b63b6e939271a8e9b4a.js.map
